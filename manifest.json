@@ -1,0 +1,3306 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "docs/*.md": {
+        "baseUrl": "https://netmavryk.mavryk.org/",
+        "changefreq": "weekly",
+        "priority": 1.0
+      }
+    },
+    "baseUrl": "https://netmavryk.mavryk.org/",
+    "changefreq": "monthly",
+    "priority": 0.5
+  },
+  "homepages": [],
+  "source_base_path": "/github/workspace/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.AddressSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.AddressSchema.html",
+          "hash": "hhf2pw1rkIQ/S4P6gWQQxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.BigMapSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.BigMapSchema.html",
+          "hash": "+CgedxCgpdkL0M8gEaWyKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.Bls12381FrSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.Bls12381FrSchema.html",
+          "hash": "RpzltYcxfIeR+Vd6Y6X6dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.Bls12381G1Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.Bls12381G1Schema.html",
+          "hash": "LCRY2y0C7dj7H8+Ukg2WxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.Bls12381G2Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.Bls12381G2Schema.html",
+          "hash": "/0WVx7gfLrRm4kkfbPH/lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.BoolSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.BoolSchema.html",
+          "hash": "NM3cUPAJ2KSsAG7lDKoXXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.BytesSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.BytesSchema.html",
+          "hash": "gonlAULu0yuKZxIe/QOnmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ChainIdSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ChainIdSchema.html",
+          "hash": "il1dTZ9NLuorlz5r5K35UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ChestKeySchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ChestKeySchema.html",
+          "hash": "I68ui/hopca5V1bVHrr1Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ChestSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ChestSchema.html",
+          "hash": "uQFC3v+yxB/cKr3zCWCedA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ConstantSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ConstantSchema.html",
+          "hash": "GZF5AQ/L3RFt9zPMIdOoKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ContractParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ContractParameter.html",
+          "hash": "XAjJsFBEC1pgQUR7hiP0Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ContractSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ContractSchema.html",
+          "hash": "TNtX5Xp0YJbux0lY9681rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ContractScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ContractScript.html",
+          "hash": "3ZdeM3+xl19TXSdqKfeS8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ContractStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ContractStorage.html",
+          "hash": "kECwsiU5iYmr9cui8tOFZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.IntSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.IntSchema.html",
+          "hash": "QWT6Hk/4do25P5DVw4qmAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.KeyHashSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.KeyHashSchema.html",
+          "hash": "2DErSpZQkha9yzHPCldP4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.KeySchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.KeySchema.html",
+          "hash": "yYJQQiQk8XFBd5Y6OwlgAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.LambdaSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.LambdaSchema.html",
+          "hash": "vZz8aCf2G2D2up5ZIlPI/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ListSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ListSchema.html",
+          "hash": "4GNJwjPxJswDih4Ar/8i3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.MapSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.MapSchema.html",
+          "hash": "N7eiRctrt7J5C7Ma3sH18g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.MumavSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.MumavSchema.html",
+          "hash": "RowZyHkRSUnDwfra+DCtwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.NatSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.NatSchema.html",
+          "hash": "26BgR2cnKOgjlR/FmwJWlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.NeverSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.NeverSchema.html",
+          "hash": "3KR2+UTHrgejFJw6dfXbRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.OperationSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.OperationSchema.html",
+          "hash": "qCmtylQ9atZpkjKy/cSLOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.OptionSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.OptionSchema.html",
+          "hash": "Wdk7sq1+mx4wKmP/G/7Gyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.OrSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.OrSchema.html",
+          "hash": "0SDAwKHFOWMZYyY3Cp03aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.PairKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.PairKind.html",
+          "hash": "kEUcAR2lKR/ytSoc5d6UPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.PairSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.PairSchema.html",
+          "hash": "Ye07ttc6Rb0+fAq10WAosw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ParameterSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ParameterSchema.html",
+          "hash": "HsGI4sSLmx46M68tznfsSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.SaplingStateSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.SaplingStateSchema.html",
+          "hash": "XTEjZbrLsrMe0SWyVun0RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.SaplingTransactionDeprecatedSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.SaplingTransactionDeprecatedSchema.html",
+          "hash": "q6b6Id7ijmszUkUnfNrRbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.SaplingTransactionSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.SaplingTransactionSchema.html",
+          "hash": "uVh/ocipFPvtu5PEtIwHDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.Schema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.Schema.html",
+          "hash": "lylHvbAUvf7zP3pRJZvsXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.SetSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.SetSchema.html",
+          "hash": "tnO4rQjZYnKwabTGuUFCgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.SignatureSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.SignatureSchema.html",
+          "hash": "jCMtGy+PuOa5fIJWqa/fHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.StorageSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.StorageSchema.html",
+          "hash": "HcDXU6qIGWla8dMuxQN7rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.StringSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.StringSchema.html",
+          "hash": "+WdubuojhozRG8Y44paKMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.TicketSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.TicketSchema.html",
+          "hash": "YYIQxlU2KVJaBxevcAC3Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.TimestampSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.TimestampSchema.html",
+          "hash": "tzbEp1Vcst6iOtxLpZPwYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.TreeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.TreeView.html",
+          "hash": "Gi+Dwzcz+7Ov7sRjGI9+eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.TxRollupL2AddressSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.TxRollupL2AddressSchema.html",
+          "hash": "xouH/Iwx9e07gAYyNpt+Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.Tzip12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.Tzip12.html",
+          "hash": "HlAygYLNXSJ9uK/M0va0FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.Tzip5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.Tzip5.html",
+          "hash": "QM2nRyn7B913kh2EEVr0FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.Tzip7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.Tzip7.html",
+          "hash": "mt9XY7eStA0eRb3KEhwS8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.UnitSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.UnitSchema.html",
+          "hash": "M1oiIAZs53OS3pO8faH9xQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.ViewSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.ViewSchema.html",
+          "hash": "XqOBVR0I4CUKf+8nHhoAjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Contracts.html",
+          "hash": "0r6ZDKXJ9F/KwkRl1Q8CtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.AnnotationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.AnnotationType.html",
+          "hash": "CLqQ3u4HcrRpmJRdEnKtFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Base58.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Base58.html",
+          "hash": "gmr+1sXLw5nbSXjfA45/KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Base64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Base64.html",
+          "hash": "ucB72p4DpL9fEx3A4kKo7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.FieldAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.FieldAnnotation.html",
+          "hash": "JR/PH2qGq0ZIivYEiBlMvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Hex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Hex.html",
+          "hash": "SaqjQdBZVb9uVEcA9pQ9wQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.IAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.IAnnotation.html",
+          "hash": "wOMbKYNCFTLzfX/CapDn/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.IMicheline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.IMicheline.html",
+          "hash": "3IrGRlm0/hhXb6pkAl/M5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Micheline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Micheline.html",
+          "hash": "NPdCdOA39nhfUSoFLY9WHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.MichelineArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.MichelineArray.html",
+          "hash": "wtiCyVunRy+JXQ5TOQhvyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.MichelineBytes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.MichelineBytes.html",
+          "hash": "Uiq36FN4NmvSqfgspMM+ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.MichelineInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.MichelineInt.html",
+          "hash": "OtmArV1aucc6yox2AjKppg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.MichelinePrim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.MichelinePrim.html",
+          "hash": "t46AgXYBZ7LjWNohW2DvVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.MichelineString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.MichelineString.html",
+          "hash": "s2WXohgjMAz//KU7evl65A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.MichelineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.MichelineType.html",
+          "hash": "4YVvFVGjbNaPfMeOCjDS7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.PrimType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.PrimType.html",
+          "hash": "qa5OlVGP+0gUr5s0mbl+PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Serialization.AnnotationConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Serialization.AnnotationConverter.html",
+          "hash": "Ddo7stQIe/+VCx2mhJ67sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Serialization.MichelineConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Serialization.MichelineConverter.html",
+          "hash": "ArsxfTGYiy3xCMQi00yegQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Serialization.MichelsonFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Serialization.MichelsonFormatter.html",
+          "hash": "ATFv2oL1T5Qcm0NQu4pSkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Serialization.PrimTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Serialization.PrimTypeConverter.html",
+          "hash": "Q70H7fA0pK+GWThkcFuzUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Serialization.html",
+          "hash": "p8j6szLuaZQAjMffPz2WIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.TypeAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.TypeAnnotation.html",
+          "hash": "LJyNC9iomUU4bC1aX2qG2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.UnsafeAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.UnsafeAnnotation.html",
+          "hash": "blHvPNusEgtYwWnPBBsdOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.Utf8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.Utf8.html",
+          "hash": "4EPC0l3HxIp+PIUEYQ0nNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.VariableAnnotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.VariableAnnotation.html",
+          "hash": "mKLuRP1cEXf6XbC4/0QKBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Encoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Encoding.html",
+          "hash": "zLTVhM42ioqnCABrXUltYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.ForgedReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.ForgedReader.html",
+          "hash": "FIlYsMZvhJkHNfYEaQFGzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.IForge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.IForge.html",
+          "hash": "eRJMLssTcR2PznQFfFswjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.IUnforge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.IUnforge.html",
+          "hash": "udQssfFNAQW3WNeTjFN1eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.LocalForge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.LocalForge.html",
+          "hash": "PNq5JMqu+F1TOIsSb99LNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.ActivationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.ActivationContent.html",
+          "hash": "b5i9hNUEJKcJMRiZQPEvdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.Ballot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.Ballot.html",
+          "hash": "Z/XG5mMekXLcp588Yc28TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.BallotContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.BallotContent.html",
+          "hash": "yafBSADbyzIdPLr8zjqeAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.BlockHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.BlockHeader.html",
+          "hash": "BVM9A7MjteGneOhpCM6aXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.Commitment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.Commitment.html",
+          "hash": "/T8u4Qq2JMZDejv7LDkLag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.DalPageId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.DalPageId.html",
+          "hash": "5DW2wS1gv1gpoPor1vEgkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.DalPageProof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.DalPageProof.html",
+          "hash": "NmSwZyNNzQ5btQItjxjFMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.DelegationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.DelegationContent.html",
+          "hash": "8bvs9W8F8DvcKNFeKBdDmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.DissectionStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.DissectionStep.html",
+          "hash": "4d/do0D9kzeTPPrHas+wgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.DoubleBakingContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.DoubleBakingContent.html",
+          "hash": "CitGU+M0yhogV4SK5lGcNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.DoubleEndorsementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.DoubleEndorsementContent.html",
+          "hash": "pYpwGhNlrjs9Z4FjqXFoMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.DoublePreendorsementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.DoublePreendorsementContent.html",
+          "hash": "kjcJ9CK3+ghlmPV07fBEOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.DrainDelegateContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.DrainDelegateContent.html",
+          "hash": "fYzRPx7GQ0GAQ/1WkM4IMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.EndorsementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.EndorsementContent.html",
+          "hash": "daugFomsTIy8W06WW1+boQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.FailingNoopContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.FailingNoopContent.html",
+          "hash": "02jyNBCaE01hgNGZ/oYTzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.FirstInputProof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.FirstInputProof.html",
+          "hash": "U8GNBh5EjnL4qIy4AdsHTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.HexListConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.HexListConverter.html",
+          "hash": "Q/pK8OTFmlWbLx5MeVJA7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.InboxProof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.InboxProof.html",
+          "hash": "pdMeYeJu0wfiQYZXQ2cGSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.IncreasePaidStorageContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.IncreasePaidStorageContent.html",
+          "hash": "sIN2CK00BCjQqCHfUiUCvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.InlineEndorsement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.InlineEndorsement.html",
+          "hash": "1yEXeHtOsBlwuXFzJY7CaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.InlinePreendorsement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.InlinePreendorsement.html",
+          "hash": "n+LyWTq62Izgxo0Kh0NvQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.InputProof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.InputProof.html",
+          "hash": "NiXh+FoIbAusKyQIhKJEuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.LBToggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.LBToggle.html",
+          "hash": "y0s0aiY1kFuw9lBymQix+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.ManagerOperationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.ManagerOperationContent.html",
+          "hash": "i1aj6xMaYDaAAfKZ0DcwHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.MetadataProof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.MetadataProof.html",
+          "hash": "6FsFKWm1Ompz30ngC5c+Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.Operation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.Operation.html",
+          "hash": "k572TtXU/voabN0mjojpgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.OperationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.OperationContent.html",
+          "hash": "d5i+xposnPiGY6cXxTK5rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.OperationTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.OperationTag.html",
+          "hash": "ICvua1kTJAZcfG5R8kQK+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.OriginationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.OriginationContent.html",
+          "hash": "EW+z3aljns6zkZiUYBYR3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.Parameters.html",
+          "hash": "477QRGw/LO5/jJUYGR/koQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.PreendorsementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.PreendorsementContent.html",
+          "hash": "LNQf19Ekrtc+oe9KyvHJSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.ProofStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.ProofStep.html",
+          "hash": "YWcCxTKxGxYOor6QboCBPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.ProposalsContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.ProposalsContent.html",
+          "hash": "hX+wVVYKrv4yozwLwoyKSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.PvmKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.PvmKind.html",
+          "hash": "zjtPV16s/lrkYilSA2q2JQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RawDataProof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RawDataProof.html",
+          "hash": "bYvg8u8LukTKSrgbqxZi7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RefutationDissection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RefutationDissection.html",
+          "hash": "TrsS+q3OgQeo5s2TP9c/og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RefutationMove.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RefutationMove.html",
+          "hash": "y1gLHaP6EADyrUg4EfuuOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RefutationProof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RefutationProof.html",
+          "hash": "ZsWAuIyFEioAIpq6ean59g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RefutationStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RefutationStart.html",
+          "hash": "WobB3e9X3SnRZzEnEDZMmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RegisterConstantContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RegisterConstantContent.html",
+          "hash": "atIBMCeivgSE9OXMcwkcMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RevealContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RevealContent.html",
+          "hash": "7odNAaUPX40WF8qJRE0WMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RevealProof.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RevealProof.html",
+          "hash": "AZFpZdZmqtWmraScqK7mQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.RevealProofData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.RevealProofData.html",
+          "hash": "5YhPFxbUHNSqV6qYCp8Xaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.Script.html",
+          "hash": "xlAWuUS1YgoFpsA6KhqNJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SeedNonceRevelationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SeedNonceRevelationContent.html",
+          "hash": "rq887KHSltdwr4K5Dee0qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SetDepositsLimitContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SetDepositsLimitContent.html",
+          "hash": "/7BJ2nAaSfdTqRnoEC+r0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SrAddMessagesContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SrAddMessagesContent.html",
+          "hash": "HYHitPssNnRDYsEykyjFrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SrCementContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SrCementContent.html",
+          "hash": "1+9aArNh64KDRAvrfZ30hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SrExecuteContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SrExecuteContent.html",
+          "hash": "NXHY43bYTxmIeT/QkaCwMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SrOriginateContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SrOriginateContent.html",
+          "hash": "EzS8smaZ9BfJaNu8OUKftA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SrPublishContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SrPublishContent.html",
+          "hash": "ZxGin53BnpRIVNkJqvVQog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SrRecoverBondContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SrRecoverBondContent.html",
+          "hash": "T4hxW5Y3oo5Q7UdDXMiTEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SrRefuteContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SrRefuteContent.html",
+          "hash": "gRD4OYXg8P8WGqxIQeo5bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.SrTmieoutContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.SrTmieoutContent.html",
+          "hash": "DxdO1A7SY0YtmMdU4bhGfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.StakersPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.StakersPair.html",
+          "hash": "YbxdEzPzAqk8nO8cNJ9S4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TransactionContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TransactionContent.html",
+          "hash": "KDIZPIWHn5XG1K9TZ/yXjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TransferTicketContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TransferTicketContent.html",
+          "hash": "K2vHGv8t68QLWheW0VO6jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupCommitContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupCommitContent.html",
+          "hash": "OGxVvPQz1BgmwaZ9FEHjyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupCommitment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupCommitment.html",
+          "hash": "N69X7alOW+aRCFUMfBxNWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupDispatchTicketsContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupDispatchTicketsContent.html",
+          "hash": "4/8+QOiNaL0KSTVK7mbnmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupFinalizeCommitmentContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupFinalizeCommitmentContent.html",
+          "hash": "no0XEcOHzbV5cFWK93oTnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupMessageResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupMessageResult.html",
+          "hash": "+4szHMpoUx5xEuWMUQHzRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupOriginationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupOriginationContent.html",
+          "hash": "q5CR/SEuL9vXdOrRNbLgkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupRejectionContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupRejectionContent.html",
+          "hash": "pvXC4N+qap5HLKNTjljquw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupRejectionDepositMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupRejectionDepositMessage.html",
+          "hash": "kjlQhgsTtXVfP92zX0pScg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupRejectionMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupRejectionMessage.html",
+          "hash": "mo7WCQizC0Tp80PGlW1iXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupRemoveCommitmentContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupRemoveCommitmentContent.html",
+          "hash": "bXoxjS7hXLRFZFm82A8ozg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupReturnBondContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupReturnBondContent.html",
+          "hash": "YTI6qCm9XtStCqHJXe2SOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupSubmitBatchContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupSubmitBatchContent.html",
+          "hash": "h+iw+7Oa2wZ2AOamqB5d5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.TxRollupTicketsInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.TxRollupTicketsInfo.html",
+          "hash": "6W9K5X9fmeCPJRFdPcoB6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.UpdateConsensusKeyContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.UpdateConsensusKeyContent.html",
+          "hash": "Ljb0L7wm3Nw60c3uyUtYWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.VdfRevelationContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.VdfRevelationContent.html",
+          "hash": "y+Aq0jmBaCG/1FPnTFSJnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.Models.html",
+          "hash": "CiKAZrDkE6lE6j7HQIlidQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.RpcForge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.RpcForge.html",
+          "hash": "zm7XLJSM8URSudU8MImDSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Forging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Forging.html",
+          "hash": "pxnMNc1dwihtmraGc4bP1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.ECKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.ECKind.html",
+          "hash": "7nEmO2pS6H2gZ+8bWgnkSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.HDKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.HDKey.html",
+          "hash": "0eEHYR1F63rjiLikWzSwGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.HDPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.HDPath.html",
+          "hash": "tL2kJVGK/MFX3AY9mUpSWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.HDPubKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.HDPubKey.html",
+          "hash": "4kWkepeTT+SS/3rJRxje4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.Key.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.Key.html",
+          "hash": "jPrMxORweKVhbr7I9ZNJvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.Mnemonic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.Mnemonic.html",
+          "hash": "dkYsJeGLbsXfDSp1l0+nMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.MnemonicSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.MnemonicSize.html",
+          "hash": "cuoaeFbOcFqWts6ZDHZIxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.PubKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.PubKey.html",
+          "hash": "Mn4MVJyAfHtyr7j6TnOdCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.Signature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.Signature.html",
+          "hash": "OR+515ujhhhoUlOoSZhl0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Keys.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Keys.html",
+          "hash": "vB3fC7IIg3zgDLsiP+BjVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.BadRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.BadRequestException.html",
+          "hash": "qVZ77q40iAV2CvhnAx+pSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Chain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Chain.html",
+          "hash": "DXYT193dWPuGp6AQLo6TeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.DeepRpcDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.DeepRpcDictionary-2.html",
+          "hash": "7/hf3qsQlAvfG4J7Z8gvMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.DeepRpcObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.DeepRpcObject.html",
+          "hash": "EHSI5toTYblErq5pBLdHww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.DelegateStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.DelegateStatus.html",
+          "hash": "GmH+XlObxs7u25ccZWS/pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.InternalErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.InternalErrorException.html",
+          "hash": "yjvBynhWUSyDnYCiCnduRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.MavrykRpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.MavrykRpc.html",
+          "hash": "gXZyotMdh7JPZ5u2Q2zxSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.BakingRightsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.BakingRightsQuery.html",
+          "hash": "aJfdpy2GGggI1srHc+Et/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.BigMapsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.BigMapsQuery.html",
+          "hash": "f2cjNMqLYPCR3IndvlcDig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.BlockHeaderQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.BlockHeaderQuery.html",
+          "hash": "/x95Tsci489c5wS8fVCnIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.BlockQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.BlockQuery.html",
+          "hash": "cS9fM3u6YDvd2kw9WeZIvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.BlocksQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.BlocksQuery.html",
+          "hash": "zVNg1b6IvJb2LAkRE5L2cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ConstantsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ConstantsQuery.html",
+          "hash": "L0OZYyuhXMR0hptHR4tYjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ContextQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ContextQuery.html",
+          "hash": "o/o97BfPSvDm9f4Ak/y9JQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ContractQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ContractQuery.html",
+          "hash": "6h/WbFitWbttmhR7B7xYdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ContractsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ContractsQuery.html",
+          "hash": "VQzx5nilJbnVDwEPnPSY9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.DelegateQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.DelegateQuery.html",
+          "hash": "s4nCEyupUFf8gBfLJuCmKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.DelegatesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.DelegatesQuery.html",
+          "hash": "47lbxsPvb07wM0yHrkJAIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.EndorsingRightsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.EndorsingRightsQuery.html",
+          "hash": "tZSFERvFU4+MZqShfBrZPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.EntrypointsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.EntrypointsQuery.html",
+          "hash": "KJhwWg0RahtSYNwH4QFkBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ForgeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ForgeQuery.html",
+          "hash": "HKrwYtXl0rV5Iri35q1zow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.FrozenBalanceQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.FrozenBalanceQuery.html",
+          "hash": "y5YP1q6bENyb7zLvQij+Ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.HelpersQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.HelpersQuery.html",
+          "hash": "dAtUMQxTxZfqAKEnza3h4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.InjectionQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.InjectionQuery.html",
+          "hash": "KZzu1mfA9qsKRH74XyuFgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.IssuanceQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.IssuanceQuery.html",
+          "hash": "mVfXnA7UOwFGs76jiv4vmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.NoncesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.NoncesQuery.html",
+          "hash": "tKTeunEhuOsVdI6jFiW04A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ParseQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ParseQuery.html",
+          "hash": "8Yef/9ipsg3ICbB+pgoKFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.BigMapQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.BigMapQuery.html",
+          "hash": "rnC6PekMHvifvuvruCKE5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.ForgeBlockHeaderQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.ForgeBlockHeaderQuery.html",
+          "hash": "XMFwmIOb/wG8eNAbYzZ5gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.ForgeOperationsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.ForgeOperationsQuery.html",
+          "hash": "1QRPuEJCkc4oCoKhMha3QA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.ForgeProtocolDataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.ForgeProtocolDataQuery.html",
+          "hash": "7miohJfCddTuyHP5u6xe/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.InjectBlockQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.InjectBlockQuery.html",
+          "hash": "BsdrrZHwQk5PE1PPtK2OWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.InjectOperationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.InjectOperationQuery.html",
+          "hash": "a9Djm6Ek3y3GwcbMXrjAqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.InjectProtocolQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.InjectProtocolQuery.html",
+          "hash": "jhzJLDbPRzhpwke612bw1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.NormalizedQuery.UnparsingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.NormalizedQuery.UnparsingMode.html",
+          "hash": "OQZi18u40/iA73HE4l6+/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.NormalizedQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.NormalizedQuery.html",
+          "hash": "gxhuxwuCb1JeO7R/9DgbmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.PackDataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.PackDataQuery.html",
+          "hash": "OItcBnei5d5D+r5Fxll8eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.ParseBlockQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.ParseBlockQuery.html",
+          "hash": "P9pqSra0BTWn/YcW09SL0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.ParseOperationsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.ParseOperationsQuery.html",
+          "hash": "rMu4xHweC1rxQQA+E3DXhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.PreapplyBlockQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.PreapplyBlockQuery.html",
+          "hash": "0jfQRzg8NCNU6rSxvo1t/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.PreapplyOperationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.PreapplyOperationQuery.html",
+          "hash": "wKlLYQR5CJrFEPj0AWU31A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.RunCodeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.RunCodeQuery.html",
+          "hash": "aSCtrNaQrMvvNcO1Bl86/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.RunOperationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.RunOperationQuery.html",
+          "hash": "dUOfcHWnBW6lufOQIpwvgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.RunScriptViewQuery.UnparsingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.RunScriptViewQuery.UnparsingMode.html",
+          "hash": "c4I8P5ABzrSpyF3K2UkW8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.RunScriptViewQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.RunScriptViewQuery.html",
+          "hash": "qM2NVnwzY7NwJeliVJyOjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.SeedQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.SeedQuery.html",
+          "hash": "V5HO3cZfIbseVqedL0R7Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.SimulateOperationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.SimulateOperationQuery.html",
+          "hash": "Up85HF4yifn74pecgsxOLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.TicketBalanceQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.TicketBalanceQuery.html",
+          "hash": "cFv9u7QIPFMZcWnfot2UaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.TraceCodeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.TraceCodeQuery.html",
+          "hash": "BFe2ObOHxBDYjc3z0qwcag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.TypeCheckCodeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.TypeCheckCodeQuery.html",
+          "hash": "5iJnniW50qMk8n9WkYJiBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.TypeCheckDataQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.TypeCheckDataQuery.html",
+          "hash": "IXS+lXfTiaxl/gazGmyNpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.Post.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.Post.html",
+          "hash": "tngrvGyVux/biXYK2AbiLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.PreapplyQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.PreapplyQuery.html",
+          "hash": "TFJewufN1gu1JrZpoGF2sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.RawBigMapQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.RawBigMapQuery.html",
+          "hash": "EYQpDAJl8vAGQF/6fl4KLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.RawContextQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.RawContextQuery.html",
+          "hash": "2Gl/fssIG46dzGcif0H8uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.RawContractQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.RawContractQuery.html",
+          "hash": "khYBZE16hyTXjfT9mVoGlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.RawCycleQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.RawCycleQuery.html",
+          "hash": "22fmlSCsLk+QB+FV5V5XnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.RawRollQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.RawRollQuery.html",
+          "hash": "P142FAzGhR/XD/bbRXD6VQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.RawRollsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.RawRollsQuery.html",
+          "hash": "w0hxdMK0w5Ctq1hKDYKA4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.RawVotesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.RawVotesQuery.html",
+          "hash": "nQB8LKbAbb0Zc778WGDifQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ScriptQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ScriptQuery.html",
+          "hash": "7/DHn6XT/FKba+O+vUeRYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ScriptsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ScriptsQuery.html",
+          "hash": "5Jg7AjGu9F75dXvlX6MJ2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.SmartRollupQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.SmartRollupQuery.html",
+          "hash": "jip72MlgRm6eVb80dIRtRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.SmartRollupsAllQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.SmartRollupsAllQuery.html",
+          "hash": "kDR1OQjp9WNcLJbU1/4m6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.SmartRollupsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.SmartRollupsQuery.html",
+          "hash": "qo6lgCvKbCxJJccUUi/o/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.StorageQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.StorageQuery.html",
+          "hash": "TgLsoJdBVr81i51BhqAICA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.ValidatorsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.ValidatorsQuery.html",
+          "hash": "bn0HLoyRwgFi6zJ26Y+cGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.VotesQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.VotesQuery.html",
+          "hash": "8G30jzjK2oV9nqRgkl/tIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.Queries.html",
+          "hash": "r/HLZV0MfTuKb59q2PQA0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcArray-1.html",
+          "hash": "qkhj7cLgZYfb/083FNktuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcDictionary-2.html",
+          "hash": "YnFUqaP9F0V96BFaaf/iJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcException.html",
+          "hash": "jenk1uogn1HIOz0SX3WvRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcMethod.html",
+          "hash": "cS3osbI7XViG2CMECtNJjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcObject.html",
+          "hash": "RKml5JtfZtW0F4mAG2gMVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcObjectRaw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcObjectRaw.html",
+          "hash": "H+5rMgpVAoabKBLu1OvW8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcQuery.html",
+          "hash": "daIW2PcPhaNH54F6jhWeRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcSimpleArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcSimpleArray-1.html",
+          "hash": "Z9SuLg6JAk4LMOsXLpeA5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.RpcSimpleDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.RpcSimpleDictionary-2.html",
+          "hash": "hbEKMZXCjGmVRzytXk5oQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Rpc.html",
+          "hash": "IGKbCepte59MXDTqTT5h8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Utils.Blake2b.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Utils.Blake2b.html",
+          "hash": "YRgJABGHVHFbFB5A+ESL9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Utils.Pbkdf2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Utils.Pbkdf2.html",
+          "hash": "pbkc7j11YEiWx1TW4OSrVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Utils.RNG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Utils.RNG.html",
+          "hash": "gvJNAjfBGJJ7GahFWf2T9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Netmavryk.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Netmavryk.Utils.html",
+          "hash": "mrR83a8xk5smasWSc/J4Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ygIgDzcAGnbCDXpw58lG/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "dUx7PvHRMJ3YR2SxNME/TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "docs/call-smart-contracts.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/call-smart-contracts.html",
+          "hash": "Rz4wxCmb1mKacl6kHy9mjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/call-view-entrypoints.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/call-view-entrypoints.html",
+          "hash": "ZmF6RJgNVj/4sb7u7BzFNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/get-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/get-started.html",
+          "hash": "0Skg8O/pt9codPw5uwhCmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/index.html",
+          "hash": "HkUO3qZ8oksxmNlSU+2ynw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/mavryk-forging.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/mavryk-forging.html",
+          "hash": "E+Ywh70KsjUAjAbP96QZpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "docs/mavryk-rpc.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/mavryk-rpc.html",
+          "hash": "vAZoh2ywSKrTekjVJwNSsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/testnet-faucet.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/testnet-faucet.html",
+          "hash": "QUmhnDhwkuj0sl797zegrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html",
+          "hash": "u3EjPNYsqesNH9LylA+ABw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/wallet-import.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/wallet-import.html",
+          "hash": "Bi3jz+wjGMxOVI8JmrKGiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon-16x16.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon-16x16.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon-32x32.png",
+      "output": {
+        "resource": {
+          "relative_path": "favicon-32x32.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/NunitoSans-Bold.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "fonts/NunitoSans-Bold.woff2"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/NunitoSans-ExtraLight.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "fonts/NunitoSans-ExtraLight.woff2"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/NunitoSans-Italic.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "fonts/NunitoSans-Italic.woff2"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "fonts/NunitoSans-Regular.woff2",
+      "output": {
+        "resource": {
+          "relative_path": "fonts/NunitoSans-Regular.woff2"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo-squared.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo-squared.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "DVLNkarMEfQJfwHCUMnYAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 245,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

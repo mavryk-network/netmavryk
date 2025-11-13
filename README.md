@@ -1,12 +1,14 @@
 # Netmavryk
 <a href="https://www.nuget.org/packages/Netmavryk/"><img src="https://img.shields.io/nuget/v/Netmavryk.svg" /></a>
 <a href="https://www.nuget.org/packages/Netmavryk/"><img src="https://img.shields.io/nuget/dt/Netmavryk.svg" /></a>
-[![License: MIT](https://img.shields.io/github/license/baking-bad/netezos.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/github/license/mavryk-network/netmavryk.svg)](https://opensource.org/licenses/MIT)
 
 
 > The first version of the library has been moved to the `v1` branch for historical purposes.
 
 Netmavryk is a cross-platform Mavryk SDK for .NET developers, simplifying the access and interaction with the [Mavryk](https://mavryk.org/) blockchain.
+
+**Note:** Netmavryk is a fork of [Netezos](https://github.com/baking-bad/netezos) by Baking Bad, adapted for the Mavryk blockchain. We are grateful to the original authors for their excellent work.
 
 The following features have been implemented so far:
 

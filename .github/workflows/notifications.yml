@@ -31,12 +31,12 @@ jobs:
             NuGet Package will be available in a few minutes.
             More info at https://github.com/mavryk-network/netmavryk/releases/tag/${{ env.RELEASE_VERSION }}
 
-      - name: Send Slack notification
-        uses: Ilshidur/action-slack@master
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        with:
-          args: |
-            Netmavryk ${{ env.RELEASE_VERSION }} has been released 😎
-            NuGet Package will be available in a few minutes.
-            More info at https://github.com/mavryk-network/netmavryk/releases/tag/${{ env.RELEASE_VERSION }}
+      # - name: Send Slack notification
+      #   uses: Ilshidur/action-slack@master
+      #   env:
+      #     SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+      #   with:
+      #     args: |
+      #       Netmavryk ${{ env.RELEASE_VERSION }} has been released 😎
+      #       NuGet Package will be available in a few minutes.
+      #       More info at https://github.com/mavryk-network/netmavryk/releases/tag/${{ env.RELEASE_VERSION }}

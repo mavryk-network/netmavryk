@@ -1,5 +1,5 @@
 {
-  "node": "https://rpc.tzkt.io/mainnet/",
+  "node": "https://rpc.mavryk.network/",
   "testContract": "KT1WPEis2WhAc2FciM2tZVn8qe6pCBe9HkDp",
   "testEntrypoint": "Action",
   "testDelegate": "mv3Mr9TnZnjJDLUtD5ZyLDLxLBFwaTdQzbvt",

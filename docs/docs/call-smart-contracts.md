@@ -12,14 +12,14 @@ A full working code snippet of calling FA1.2 and FA2 transfers with Netmavryk SD
 ## Prerequisites
 
 First, we need an `Rpc` to interaction. You can find a more detailed description of working with the `Rpc` 
-in the [Mavryk Rpc](mavryk-rpc.html) section. In our case we use the RPC with the `ghostnet` network.
+in the [Mavryk Rpc](mavryk-rpc.html) section. In our case we use the RPC with the `basenet` network.
 
 ```cs
-var rpc = new MavrykRpc("https://rpc.tzkt.io/ghostnet/");
+var rpc = new MavrykRpc("https://basenet.rpc.mavryk.network/");
 ```
 
 Also, we need a wallet to call contracts. You can find a more detailed description of working with the `Key` in the [Get started](get-started.html) section. 
-You can use the address to get some test tokens with the [Mavryk Faucet Bot](https://t.me/tezos_faucet_bot) or even generate a new key.
+You can use the address to get some test tokens with the [Mavryk Faucet](https://mavrykdynamics.com) or even generate a new key.
 
 ```cs
 var key = Key.FromBase58("edsk35mfZXZJiYUxqcmsK5K6ggg3owD2dpbRgFHp4zZzmrPy9RBdj8");
@@ -63,7 +63,7 @@ var cs = new ContractScript(code);
 ```
 
 To build the parameter for your transfer we need to know the entrypoint schema. You can check the parameter schema on the 
-[TzKT Explorer](https://ghostnet.tzkt.io/KT1EwXFWoG9bYebmF4pYw72aGjwEnBWefgW5/entrypoints) or you can get the schema from the `ContractScript`
+[MvKT Explorer](https://basenet.api.mavryk.network/KT1EwXFWoG9bYebmF4pYw72aGjwEnBWefgW5/entrypoints) or you can get the schema from the `ContractScript`
 
 ```cs
 var schemaString = cs.Entrypoints["transfer"].Humanize();
@@ -132,7 +132,7 @@ var cs = new ContractScript(code);
 ```
 
 To build the parameter for your transfer we need to know the entrypoint schema. You can check the parameter schema on the 
-[TzKT Explorer](https://ghostnet.tzkt.io/KT1DYk1XDzHredJq1EyNkDindiWDqZyekXGj/entrypoints) or you can get the schema from the `ContractScript`
+[MvKT Explorer](https://basenet.api.mavryk.network/KT1DYk1XDzHredJq1EyNkDindiWDqZyekXGj/entrypoints) or you can get the schema from the `ContractScript`
 
 ```cs
 var schemaString = cs.Entrypoints["transfer"].Humanize();

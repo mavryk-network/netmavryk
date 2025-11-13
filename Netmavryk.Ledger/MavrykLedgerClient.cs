@@ -16,7 +16,7 @@ namespace Netmavryk.Ledger
         readonly byte MavrykWalletCLA = 0x80;
         readonly byte[] KeyPath;
         
-        enum Instruction { // taken from https://github.com/obsidiansystems/ledger-app-tezos/blob/master/APDUs.md
+        enum Instruction { // taken from https://github.com/mavryk-network/ledger-app-mavryk-wallet/blob/main/app/docs/apdu.md
             InsVersion = 0x00,
             InsGetPublicKey = 0x02,
             InsPromptPublicKey = 0x03,

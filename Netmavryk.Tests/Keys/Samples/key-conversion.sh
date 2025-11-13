@@ -14,7 +14,7 @@ length=$(jq length <<< "$json_content")
 for ((i = 0; i < length; i++)); do
   current_pk=$(jq -r ".[$i].pub" <<< "$json_content")
   echo "Current pk for entry $i is $current_pk. New pkh:"
-  key=$(kubectl exec -it mavryk-baking-node-0 -c octez-node -- octez-client import public key taquito unencrypted:$current_pk --force > key)
+  key=$(kubectl exec -it mavryk-baking-node-0 -c mavkit-node -- mavkit-client import public key taquito unencrypted:$current_pk --force > key)
   new_pkh=$(grep -o '\<mv3[^[:space:]]*' key)
   echo $new_pkh
 

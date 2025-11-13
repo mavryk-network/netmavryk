@@ -30,7 +30,7 @@ Do not hesitate to use [GitHub issue tracker](https://github.com/mavryk-network/
 
 ### Support
 
-Feel free to join our [Discord server](https://discord.gg/aG8XKuwsQd), [Telegram chat](https://t.me/baking_bad_chat), or find us in [Mavryk Dev Slack](https://tezos-dev.slack.com/archives/CV5NX7F2L).
+Feel free to join our [Discord server](https://discord.com/invite/FXYQyVf6fE) or [Telegram chat](https://t.me/MavrykNetwork).
 We will be glad to hear any feedback and feature requests and will try to help you with general use cases of the Netmavryk library.
 
 ## Getting started
@@ -109,8 +109,3 @@ var result = await rpc.Inject.Operation.PostAsync(bytes.Concat(signature));
 ````
 
 That is it. We have successfully injected our first operation into the Mavryk blockchain.
-
-## Useful links
-
-- [Examples of Netmavryk usage](https://baking-bad.org/blog/2019/11/14/tezos-c-sdk-examples-of-netezos-usage/)
-- [Forge an operation locally and sign it using Ledger](https://baking-bad.org/blog/2019/12/30/tezos-c-sdk-netezos-forge-an-operation-locally-and-sign-it-using-ledger-wallet/)

@@ -1,5 +1,5 @@
 {
-  "node": "https://rpc.tzkt.io/oxfordnet/",
+  "node": "https://atlasnet.rpc.mavryk.network/",
   "testContract": "KT1XtHJBXF3aAwggHrZh1fUbzaHc5MmB6QDs",
   "testEntrypoint": "default",
   "testDelegate": "mv1CyTQb22Pg5wYSEEvbbQx15aSST23UMt8B",

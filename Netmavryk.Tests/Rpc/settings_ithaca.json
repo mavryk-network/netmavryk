@@ -1,5 +1,5 @@
 {
-  "node": "https://rpc.tzkt.io/ithacanet/",
+  "node": "https://atlasnet.rpc.mavryk.network",
   "testContract": "KT1GHz4zehbss9hxsYsTbppRgozXxaLJLM2R",
   "testEntrypoint": "do",
   "testDelegate": "mv1NszgcMUUhWe4XkWmupruw3DWuGEKi2EmL",

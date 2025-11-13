@@ -82,7 +82,7 @@ We've just seen how `view` entrypoints work in Mavryk: you send a transaction to
 an internal transaction with result value in its parameters and sends it to the `callback` contract. 
 With Netmavryk we will do basically the same things.
 
-Let's see, how to get [FA1.2 token](https://ghostnet.tzkt.io/KT1EwXFWoG9bYebmF4pYw72aGjwEnBWefgW5/code)
+Let's see, how to get [FA1.2 token](https://basenet.api.mavryk.network/KT1EwXFWoG9bYebmF4pYw72aGjwEnBWefgW5/code)
 balance by calling `getBalance` entrypoint.
  
 ### Prepare callback contract
@@ -90,7 +90,7 @@ balance by calling `getBalance` entrypoint.
 First of all, we will need an existing contract that we will use as a `callback`.
 Moreover, the `callback` contract must have an entrypoint with the same parameter type as the type of the `view` entrypoint we are calling.
  
-Here is how the `getBalance` entrypoint of [our contract](https://ghostnet.tzkt.io/KT1EwXFWoG9bYebmF4pYw72aGjwEnBWefgW5/code) looks:
+Here is how the `getBalance` entrypoint of [our contract](https://basenet.api.mavryk.network/KT1EwXFWoG9bYebmF4pYw72aGjwEnBWefgW5/code) looks:
  
 ```
 (pair %getBalance address (contract nat)))
@@ -100,7 +100,7 @@ So, we will need a `callback` contract with an entrypoint of type `nat`.
  
 Where do we get such a contract? Well, we can either originate a new one or use any of already existing ones that have an entrypoint of the required type.
 
-Let's take [existing one](https://ghostnet.tzkt.io/KT1MdfSC8xwRvxmd1UHANt158YtoFn4XUhn1/code):
+Let's take [existing one](https://basenet.api.mavryk.network/KT1MdfSC8xwRvxmd1UHANt158YtoFn4XUhn1/code):
  
 ```
 parameter (or (nat %viewNat) (or (string %viewString) (address %viewAddress)));
@@ -115,9 +115,9 @@ That contract contains the entrypoint `(nat %viewNat)` - that's exactly what we 
 Of course, we don't want to send a transaction just to get some data from the smart contract.
 It would be weird to wait a minute unless a transaction is included into a block and moreover to pay a tx fee.
  
-A common workaround is to use [/run_operation](https://gitlab.com/mavryk-network/mavryk-protocol/-/blob/master/docs/api/jakarta-openapi.json) RPC endpoint
+A common workaround is to use [/run_operation](https://gitlab.com/mavryk-network/mavryk-protocol/-/blob/master/docs/api/boreas-openapi-dev.json) RPC endpoint
 to simulate the transaction and see its result without injecting it into the blockchain, so we don't have to wait and we don't have to pay a fee.
-By the way, [/run_operation](https://gitlab.com/mavryk-network/mavryk-protocol/-/blob/master/docs/api/jakarta-openapi.json) ignores signature, so we don't even need to forge and sign the operation, just send its content.
+By the way, [/run_operation](https://gitlab.com/mavryk-network/mavryk-protocol/-/blob/master/docs/api/boreas-openapi-dev.json) ignores signature, so we don't even need to forge and sign the operation, just send its content.
  
 Let's create a transaction:
  
@@ -126,7 +126,7 @@ var sender   = "mv1XBTPd4bESr2rWK9DG8RhQRnE1VmdfLLBf";
 var fa12     = "KT1EwXFWoG9bYebmF4pYw72aGjwEnBWefgW5";
 var callback = "KT1MdfSC8xwRvxmd1UHANt158YtoFn4XUhn1%viewNat";
             
-var rpc = new MavrykRpc("https://rpc.tzkt.io/ghostnet/");
+var rpc = new MavrykRpc("https://https://basenet.rpc.mavryk.network/");
 var counter = await rpc.Blocks.Head.Context.Contracts[sender].Counter.GetAsync<int>();
  
 var tx = new TransactionContent

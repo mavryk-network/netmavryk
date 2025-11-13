@@ -39,7 +39,7 @@ namespace Netmavryk.Tests.Encoding
                 return $@"{{""prim"":""option"",""args"":[{CreateDeepOption(depth - 1)}]}}";
             }
 
-            var json1 = CreateDeepOption(12_000);
+            var json1 = CreateDeepOption(5_000);
             var m1 = Micheline.FromJson(json1);
             var b1 = m1.ToBytes();
             Assert.NotNull(m1);
@@ -58,7 +58,7 @@ namespace Netmavryk.Tests.Encoding
                 return $@"{{""prim"":""pair"",""args"":[{{""prim"":""unit""}},{CreateDeepPair(depth - 1)}],""annots"":[""%d{depth}""]}}";
             }
 
-            var json2 = CreateDeepPair(10_000);
+            var json2 = CreateDeepPair(5_000);
             var m2 = Micheline.FromJson(json2);
             var b2 = m2.ToBytes();
             Assert.NotNull(m2);

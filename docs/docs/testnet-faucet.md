@@ -6,9 +6,9 @@ keywords: netmavryk, mavryk, mavryk sdk, mavryk csharp, mavryk csharp sdk, block
 
 # Testnet Faucets interaction
 
-To get started, we need an account with funds. The easiest way to get test XTZ or FA tokens is by using the [Faucet Telegram Bot](https://t.me/tezos_faucet_bot).
+To get started, we need an account with funds. The easiest way to get test MVRK or FA tokens is by using the [Faucet](https://mavrykdynamics.com).
 
-Let's generate a new key and get test coins from the [telegram bot](https://t.me/tezos_faucet_bot):
+Let's generate a new key and get test coins from the [Faucet](https://mavrykdynamics.com):
 
 ```csharp
 // generate new key
@@ -21,5 +21,5 @@ var key = Key.FromBase58("edsk4ZkGeBwDyFVjZLL2neV5FUeWNN4NJntFNWmWyEBNbRwa2u3jh1
 var address = key.Address; // mv1ExNdGhoAp2BBefJs1FuiRa9UJCKYSvNjf
 ```
 
-Let's go to the [Faucet Bot](https://t.me/tezos_faucet_bot) and get some test coins.
+Let's go to the [Faucet](https://mavrykdynamics.com) and get some test coins.
 Click on `🤑 Get coins` to receive 100&nbsp;ꜩ to the specified mv-address, or `🍬 Get tokens` to receive some test tokens, or `➕ Add subscription` and set `Amount` to ensure your balance is always non-zero.
